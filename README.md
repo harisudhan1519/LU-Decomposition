@@ -26,9 +26,10 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-
+```
 
 2.to solve matrix using LU decomposition
+```
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=np.array(eval(input()))
